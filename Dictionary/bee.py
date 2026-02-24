@@ -6,8 +6,8 @@ def main():
 
     while len(WORDS) > 0:
         print(f"{len(WORDS)} words left!")
-        guess = input("Guess a word: ")
-        if guess == "GRAPHIC":
+        guess = input("Guess a word: ").strip().lower()
+        if guess == "graphic":
             WORDS.clear()
             print("You've won!")
         elif guess in WORDS.keys():

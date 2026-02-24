@@ -1,0 +1,18 @@
+.keys() or .values Used to access value of the dictionary 
+.pop() Used to give first then completely delete 
+.items() Used to give the values and itteration both by one property
+
+
+def create_report(spacecraft):
+    return f"""
+    ======== REPORT ======
+
+    Name: {spacecraft.get("name", "Unknown")}
+    Distance: {spacecraft.get("distance", "Unknown")} AU
+    Orbit: {spacecraft.get("orbit", "Unknown")}
+
+    ======================
+    """
+
+main()
+Above code is an example from report.py
