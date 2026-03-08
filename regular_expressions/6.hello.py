@@ -13,4 +13,4 @@ else:
 
 # Some more symbols
 # ^ matches the start of the string
-# $ matches ay the end of string just before the newline at the end of the string
+# $ matches ay the end of string or just before the newline at the end of the string
