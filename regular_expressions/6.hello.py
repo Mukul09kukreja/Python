@@ -9,7 +9,8 @@ else:
 
 # Input: My email address is mukul@bmu.edu
 # Output: Valid
-# So here is the problem 
+# So here is the problem Like Input: My email id is mukul@bmu.edu
+#                             Output: Valid
 
 # Some more symbols
 # ^ matches the start of the string
