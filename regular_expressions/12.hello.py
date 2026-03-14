@@ -10,4 +10,5 @@ else:
   print("Invalid")
 
 # Another functions in re library
-# re.match(pattern, string, flags=0)
+# re.match(pattern, string, flags=0) = we don't use ^ to match start of string
+# re.fullmatch = we don't use ^ and $ for matching from start
