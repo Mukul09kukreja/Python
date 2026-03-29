@@ -8,14 +8,14 @@ def main():
   print(f"{student.name} from {student.house}")
 
 def get_student():
-  student = Student()
-  student.name = input("Name: ")
-  student.house = input("House: ")
+  student = Student() # student is an object of class
+  student.name = input("Name: ") # it is beecome new dataset
+  student.house = input("House: ") # it is beecome new dataset
   return student
 
 if __name__ == "__main__":
   main()
 
-'''
-  Objects 
-'''
+# Objects is use of classes, it is mutable
+# Name, house is an attributes of class Student and this is also called instance variables
+# Ex: name, house it is a variable inside class
