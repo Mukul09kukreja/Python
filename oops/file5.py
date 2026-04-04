@@ -11,6 +11,7 @@ def get_student():
   student = Student() # student is an object of class
   student.name = input("Name: ") # it is beecome new dataset
   student.house = input("House: ") # it is beecome new dataset
+  print(Student()) #This given an address of class objects
   return student
 
 if __name__ == "__main__":
