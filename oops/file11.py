@@ -1,4 +1,4 @@
-# Validating Attributes
+# 2. String method: __str__
 class Student:
   def __init__(self, name, house):
     if not name:
@@ -8,9 +8,12 @@ class Student:
     self.name = name
     self.house = house
 
+  def __str__(self):
+    return f"{self.name} from {self.house}"
+
 def main():
   student = get_student() 
-  print(student) # Just see the object location in terms in numbers
+  print(student)
 
 def get_student():
   name = input("Name: ")
